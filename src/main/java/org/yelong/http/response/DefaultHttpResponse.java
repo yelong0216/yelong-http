@@ -9,9 +9,8 @@ import java.util.Map;
 import org.yelong.http.request.HttpRequest;
 
 /**
+ * 默认的http响应
  * @author PengFei
- * @date 2020年3月3日上午11:51:50
- * @since 1.0
  */
 public class DefaultHttpResponse implements HttpResponse{
 

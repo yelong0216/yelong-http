@@ -13,12 +13,8 @@ import org.yelong.http.Constants;
 import org.yelong.http.request.file.FileItem;
 
 /**
- * 
  * http 请求的抽象实现
- * 
  * @author PengFei
- * @date 2020年3月3日下午12:39:16
- * @since 1.0
  */
 public abstract class AbstractHttpReqeust implements HttpRequest{
 
@@ -185,6 +181,5 @@ public abstract class AbstractHttpReqeust implements HttpRequest{
 	public boolean existContent() {
 		return this.content != null && this.content != Constants.EMPTY_BYTE_ARRAY;
 	}
-	
 	
 }

@@ -14,8 +14,6 @@ import org.yelong.http.request.file.FileItemFactory;
  * http 请求
  * 
  * @author PengFei
- * @date 2020年3月3日上午10:31:36
- * @since 1.0
  */
 public interface HttpRequest {
 	

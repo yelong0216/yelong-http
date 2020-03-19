@@ -7,8 +7,6 @@ package org.yelong.http.exception;
  * http请求异常
  * 
  * @author PengFei
- * @date 2020年3月3日上午10:32:24
- * @since 1.0
  */
 public class HttpException extends Exception{
 

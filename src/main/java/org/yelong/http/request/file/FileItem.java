@@ -5,12 +5,8 @@ package org.yelong.http.request.file;
 
 /**
  * 文件项
- * 
  * 包装请求上传的文件
- * 
  * @author PengFei
- * @date 2020年3月3日下午12:42:28
- * @since 1.0
  */
 public interface FileItem {
 	

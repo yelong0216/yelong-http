@@ -31,9 +31,8 @@ import org.yelong.http.response.HttpResponseInterceptor;
 
 
 /**
+ * 默认的 http 客户端实现
  * @author PengFei
- * @date 2020年3月3日上午10:48:07
- * @since 1.0
  */
 public class DefaultHttpClient extends AbstractHttpClient implements HttpClient{
 
@@ -146,9 +145,6 @@ public class DefaultHttpClient extends AbstractHttpClient implements HttpClient{
 
 	/**
 	 * 关闭
-	 * @author 彭飞
-	 * @date 2019年10月25日下午4:49:12
-	 * @version 1.2
 	 * @param closeable
 	 */
 	public void close(Closeable closeable) throws HttpException {

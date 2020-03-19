@@ -27,8 +27,6 @@ import org.yelong.http.response.HttpResponse;
 
 /**
  * @author PengFei
- * @date 2020年3月3日上午11:14:56
- * @since 1.0
  */
 public final class WebUtils {
 
@@ -168,9 +166,6 @@ public final class WebUtils {
 	
 	/**
 	 * 获取响应中的文件
-	 * @author 彭飞
-	 * @date 2019年10月28日上午11:19:14
-	 * @version 1.2
 	 * @param responseEntity 响应结果
 	 * @param filePath 存储文件的路径。不包含文件名称
 	 * @return
@@ -203,9 +198,6 @@ public final class WebUtils {
 	
 	/**
 	 * 获取响应中的文件
-	 * @author 彭飞
-	 * @date 2019年10月28日上午11:19:14
-	 * @version 1.2
 	 * @param responseEntity 响应结果
 	 * @param filePath 存储文件的路径。不包含文件名称
 	 * @return
@@ -224,6 +216,5 @@ public final class WebUtils {
 		}
 		return fileName;
 	}
-	
 	
 }

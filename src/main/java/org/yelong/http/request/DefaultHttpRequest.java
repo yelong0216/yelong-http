@@ -11,10 +11,7 @@ import org.yelong.http.utils.WebUtils;
 
 /**
  * 默认的http请求实现
- * 
  * @author PengFei
- * @date 2020年3月3日下午12:02:16
- * @since 1.0
  */
 public class DefaultHttpRequest extends AbstractHttpReqeust{
 

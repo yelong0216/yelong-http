@@ -7,10 +7,8 @@ import org.yelong.http.request.HttpRequestInterceptor;
 import org.yelong.http.response.HttpResponseInterceptor;
 
 /**
- * 
+ * 抽象的http 客户端实现
  * @author PengFei
- * @date 2020年3月5日上午10:44:17
- * @since 1.0
  */
 public abstract class AbstractHttpClient implements HttpClient{
 

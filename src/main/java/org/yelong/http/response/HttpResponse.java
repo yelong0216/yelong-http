@@ -8,11 +8,8 @@ import java.util.Map;
 import org.yelong.http.request.HttpRequest;
 
 /**
- * http请求后的相应结果
- * 
+ * http请求后的响应结果
  * @author PengFei
- * @date 2020年3月3日上午10:31:42
- * @since 1.0
  */
 public interface HttpResponse {
 

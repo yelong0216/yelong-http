@@ -5,8 +5,6 @@ package org.yelong.http;
 
 /**
  * @author PengFei
- * @date 2020年3月3日下午12:01:25
- * @since 1.0
  */
 public final class Constants {
 	

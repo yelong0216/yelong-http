@@ -16,8 +16,6 @@ import org.yelong.http.utils.WebUtils;
 
 /**
  * @author PengFei
- * @date 2020年3月3日上午11:56:58
- * @since 1.0
  */
 public class HttpResponseBuilder {
 

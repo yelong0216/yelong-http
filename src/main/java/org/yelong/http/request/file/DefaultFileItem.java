@@ -5,8 +5,6 @@ package org.yelong.http.request.file;
 
 /**
  * @author PengFei
- * @date 2020年3月3日下午12:47:34
- * @since 1.0
  */
 public class DefaultFileItem implements FileItem{
 

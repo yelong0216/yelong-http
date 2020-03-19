@@ -9,8 +9,6 @@ import org.yelong.http.exception.HttpException;
 
 /**
  * @author PengFei
- * @date 2020年3月5日上午10:39:30
- * @since 1.0
  */
 public interface HttpRequestInterceptor {
 

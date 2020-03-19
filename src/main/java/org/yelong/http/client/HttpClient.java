@@ -18,8 +18,6 @@ import org.yelong.http.response.HttpResponseInterceptor;
  * 执行请求并返回请求的相应结果
  * 
  * @author PengFei
- * @date 2020年3月3日上午10:31:29
- * @since 1.0
  */
 public interface HttpClient {
 

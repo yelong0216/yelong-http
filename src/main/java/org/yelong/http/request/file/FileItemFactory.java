@@ -11,12 +11,8 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 
 /**
- * 
  * 文件项工厂
- * 
  * @author PengFei
- * @date 2020年3月3日下午12:49:45
- * @since 1.0
  */
 public class FileItemFactory {
 
