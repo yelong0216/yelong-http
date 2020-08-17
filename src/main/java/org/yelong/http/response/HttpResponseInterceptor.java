@@ -8,15 +8,16 @@ import java.io.IOException;
 import org.yelong.http.exception.HttpException;
 
 /**
- * @author PengFei
+ * 响应拦截器
+ * 
+ * @since 1.0
  */
 public interface HttpResponseInterceptor {
 
 	/**
 	 * 在请求执行后执行
-	 * @param response
-	 * @throws HttpException
-	 * @throws IOException
+	 * 
+	 * @param response 响应结果
 	 */
 	void process(HttpResponse response) throws HttpException, IOException;
 

@@ -12,7 +12,8 @@ import org.apache.commons.io.IOUtils;
 
 /**
  * 文件项工厂
- * @author PengFei
+ * 
+ * @since 1.0
  */
 public class FileItemFactory {
 
@@ -23,6 +24,7 @@ public class FileItemFactory {
 
 	/**
 	 * 通过文件创建文件项
+	 * 
 	 * @param file 文件
 	 * @return 文件项
 	 * @throws IOException
@@ -33,19 +35,20 @@ public class FileItemFactory {
 
 	/**
 	 * 通过文件和文件识别类型创建文件项
-	 * @param file 文件
+	 * 
+	 * @param file     文件
 	 * @param mimeType 文件识别类型
 	 * @return 文件项
 	 * @throws IOException
 	 */
-	public static FileItem create(File file,String mimeType) throws IOException {
-		byte [] content = FileUtils.readFileToByteArray(file);
+	public static FileItem create(File file, String mimeType) throws IOException {
+		byte[] content = FileUtils.readFileToByteArray(file);
 		return new DefaultFileItem(file.getName(), file.length(), content, mimeType);
 	}
 
 	/**
 	 * @param fileName 文件名称
-	 * @param content 文件内容
+	 * @param content  文件内容
 	 * @return 文件项
 	 */
 	public static FileItem create(String fileName, byte[] content) {
@@ -54,7 +57,7 @@ public class FileItemFactory {
 
 	/**
 	 * @param fileName 文件名称
-	 * @param content 文件内容
+	 * @param content  文件内容
 	 * @param mimeType 文件识别类型
 	 * @return 文件项
 	 */
@@ -64,7 +67,7 @@ public class FileItemFactory {
 
 	/**
 	 * @param fileName 文件名称
-	 * @param stream 文件流
+	 * @param stream   文件流
 	 * @return 文件项
 	 * @throws IOException
 	 */
@@ -74,13 +77,13 @@ public class FileItemFactory {
 
 	/**
 	 * @param fileName 文件名称
-	 * @param stream 文件流
+	 * @param stream   文件流
 	 * @param mimeType 文件识别类型
 	 * @return 文件项
 	 * @throws IOException
 	 */
-	public static FileItem create(String fileName, InputStream stream, String mimeType) throws IOException{
-		byte [] content = IOUtils.toByteArray(stream);
+	public static FileItem create(String fileName, InputStream stream, String mimeType) throws IOException {
+		byte[] content = IOUtils.toByteArray(stream);
 		return new DefaultFileItem(fileName, content.length, content, mimeType);
 	}
 }

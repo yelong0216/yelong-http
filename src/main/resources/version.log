@@ -1,2 +1,16 @@
 2020-03-19 v->1.0.0 首次发布
 
+2020-08-17 v->1.1.0 
+	修改类、方法注释风格
+	修改部分功能可以进行拓展修改实现
+	
+	---新增包---
+	org.yelong.http.net
+	
+	---新增类---
+	org.yelong.http.response.DefaultHttpResponseFactory
+	org.yelong.http.response.HttpResponseFactory
+	
+	---项目统计---
+	总计代码行数：1387
+	总文件数：22

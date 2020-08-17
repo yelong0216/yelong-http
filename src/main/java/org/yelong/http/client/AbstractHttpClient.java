@@ -8,14 +8,15 @@ import org.yelong.http.response.HttpResponseInterceptor;
 
 /**
  * 抽象的http 客户端实现
- * @author PengFei
+ * 
+ * @since 1.0
  */
-public abstract class AbstractHttpClient implements HttpClient{
+public abstract class AbstractHttpClient implements HttpClient {
 
 	private final List<HttpRequestInterceptor> httpRequestInterceptors = new ArrayList<>();
-	
+
 	private final List<HttpResponseInterceptor> httpResponseInterceptors = new ArrayList<>();
-	
+
 	@Override
 	public void addHttpRequestInterceptor(HttpRequestInterceptor httpRequestInterceptor) {
 		this.httpRequestInterceptors.add(httpRequestInterceptor);

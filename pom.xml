@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.yelong0216</groupId>
 	<artifactId>yelong-http</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<name>com.github.yelong0216.yelong-http</name>
 	<url>https://github.com/yelong0216/yelong-http</url>
 	<description>
-  		封装java对http的请求
+  		简单封装java对http的请求，实现便捷的发送http请求（可以发送携带文件的请求）
   	</description>
 	<developers>
 		<developer>

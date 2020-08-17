@@ -6,18 +6,19 @@ package org.yelong.http.request;
 /**
  * http 请求工厂
  * 
- * @author PengFei
+ * @since 1.0
  */
 public class HttpRequestFactory {
 
 	/**
 	 * 创建默认的http请求
-	 * @param url url (http://www.baidu.com)
+	 * 
+	 * @param url    url (http://www.baidu.com)
 	 * @param method 请求method (GET、POST)
-	 * @return
+	 * @return request
 	 */
-	public static HttpRequest create(String url,String method) {
-		return new DefaultHttpRequest(url,method);
+	public static HttpRequest create(String url, String method) {
+		return new DefaultHttpRequest(url, method);
 	}
 
 }

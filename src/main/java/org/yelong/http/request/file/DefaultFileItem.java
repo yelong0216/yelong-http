@@ -4,16 +4,16 @@
 package org.yelong.http.request.file;
 
 /**
- * @author PengFei
+ * @since 1.0
  */
-public class DefaultFileItem implements FileItem{
+public class DefaultFileItem implements FileItem {
 
 	private String fileName;
-	
+
 	private long fileLength;
-	
-	private byte [] content;
-	
+
+	private byte[] content;
+
 	private String mimeType;
 
 	public DefaultFileItem(String fileName, long fileLength, byte[] content, String mimeType) {
